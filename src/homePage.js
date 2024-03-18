@@ -1,14 +1,18 @@
-const contentDiv = document.getElementById('content');
+function showHome () {
+    const contentDiv = document.getElementById('content');
 
-const title = document.createElement('h1');
-title.innerText = 'Edible Food';
-contentDiv.appendChild(title);
+    const title = document.createElement('h1');
+    title.innerText = 'Edible Food';
+    contentDiv.appendChild(title);
 
-const restaurantPic = document.createElement('img');
-restaurantPic.src = '../src/restaurant.jpg';
-restaurantPic.alt = 'totally not abandoned looking restaurant';
-contentDiv.appendChild(restaurantPic);
+    const restaurantPic = document.createElement('img');
+    restaurantPic.src = '../src/restaurant.jpg';
+    restaurantPic.alt = 'totally not abandoned looking restaurant';
+    contentDiv.appendChild(restaurantPic);
 
-const description = document.createElement('p');
-description.innerText = 'A restaurant which sells food that is very edible. The food are prepared and cooked so they can be sold to paying customers. The food costs money and takes time to make. There are people who work at this restaurant. They are paid.';
-contentDiv.appendChild(description);
+    const description = document.createElement('p');
+    description.innerText = 'A restaurant which sells food that is very edible. The food are prepared and cooked so they can be sold to paying customers. The food costs money and takes time to make. There are people who work at this restaurant. They are paid.';
+    contentDiv.appendChild(description);
+}
+
+export {showHome};
