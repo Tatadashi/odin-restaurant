@@ -1,3 +1,5 @@
+import restaurant from './restaurant.jpg';
+
 function showHome () {
     document.body.style.backgroundColor = 'grey';
     
@@ -8,7 +10,7 @@ function showHome () {
     contentDiv.appendChild(title);
 
     const restaurantPic = document.createElement('img');
-    restaurantPic.src = './restaurant.jpg';
+    restaurantPic.src = restaurant;
     restaurantPic.alt = 'totally not abandoned looking restaurant';
     contentDiv.appendChild(restaurantPic);
 

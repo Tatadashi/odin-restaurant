@@ -1,8 +1,11 @@
+import berry from './berry.jpg';
+import bear from './bear.webp';
+
 function showMenu () {
     document.body.style.backgroundColor = '#be9fbf';
 
-    addMenuItem('Assorted Berries', './berry.jpg');
-    addMenuItem('Bear', './bear.webp');
+    addMenuItem('Assorted Berries', berry);
+    addMenuItem('Bear', bear);
 }
 
 function addMenuItem (item, imageSrc) {

@@ -1,3 +1,6 @@
+import founder from './founders.png';
+import nature from './nature.webp';
+
 function showAbout () {
     document.body.style.backgroundColor = '#eedd82';
     
@@ -8,7 +11,7 @@ function showAbout () {
     contentDiv.appendChild(founders);
 
     const founderImg = document.createElement('img');
-    founderImg.src = './founders.png';
+    founderImg.src = founder;
     founderImg.alt = 'real picture of real founders';
     contentDiv.appendChild(founderImg);
 
@@ -16,10 +19,10 @@ function showAbout () {
     description.innerText = 'Our Founders use only homegrown, fresh, all-natural produce sourced from ethical places. They have been maintaining this quality ever since they founded this food establishment 199 years ago.';
     contentDiv.appendChild(description);
 
-    const nature = document.createElement('img');
-    nature.src = './nature.webp';
-    nature.alt = 'homegrown, fresh, all-natural produce sourced from ethical places';
-    contentDiv.appendChild(nature);
+    const natureImg = document.createElement('img');
+    natureImg.src = nature;
+    natureImg.alt = 'homegrown, fresh, all-natural produce sourced from ethical places';
+    contentDiv.appendChild(natureImg);
 }
 
 export {showAbout};
