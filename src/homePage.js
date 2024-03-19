@@ -1,4 +1,6 @@
 function showHome () {
+    document.body.style.backgroundColor = 'white';
+    
     const contentDiv = document.getElementById('content');
 
     const title = document.createElement('h1');

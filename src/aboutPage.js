@@ -1,4 +1,6 @@
 function showAbout () {
+    document.body.style.backgroundColor = '#eedd82';
+    
     const contentDiv = document.getElementById('content');
 
     const founders = document.createElement('h1');
