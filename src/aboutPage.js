@@ -8,7 +8,7 @@ function showAbout () {
     contentDiv.appendChild(founders);
 
     const founderImg = document.createElement('img');
-    founderImg.src = '../src/founders.png';
+    founderImg.src = './founders.png';
     founderImg.alt = 'real picture of real founders';
     contentDiv.appendChild(founderImg);
 
@@ -17,7 +17,7 @@ function showAbout () {
     contentDiv.appendChild(description);
 
     const nature = document.createElement('img');
-    nature.src = '../src/nature.webp';
+    nature.src = './nature.webp';
     nature.alt = 'homegrown, fresh, all-natural produce sourced from ethical places';
     contentDiv.appendChild(nature);
 }

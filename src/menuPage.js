@@ -1,8 +1,8 @@
 function showMenu () {
     document.body.style.backgroundColor = '#be9fbf';
 
-    addMenuItem('Assorted Berries', '../src/berry.jpg');
-    addMenuItem('Bear', '../src/bear.webp');
+    addMenuItem('Assorted Berries', './berry.jpg');
+    addMenuItem('Bear', './bear.webp');
 }
 
 function addMenuItem (item, imageSrc) {

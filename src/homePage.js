@@ -1,5 +1,5 @@
 function showHome () {
-    document.body.style.backgroundColor = 'white';
+    document.body.style.backgroundColor = 'grey';
     
     const contentDiv = document.getElementById('content');
 
@@ -8,7 +8,7 @@ function showHome () {
     contentDiv.appendChild(title);
 
     const restaurantPic = document.createElement('img');
-    restaurantPic.src = '../src/restaurant.jpg';
+    restaurantPic.src = './restaurant.jpg';
     restaurantPic.alt = 'totally not abandoned looking restaurant';
     contentDiv.appendChild(restaurantPic);
 
